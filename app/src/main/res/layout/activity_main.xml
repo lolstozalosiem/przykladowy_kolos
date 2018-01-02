@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.domin.kolos_android.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="Witaj w restauracji XYZ"
+        android:textColor="@color/brown"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="181dp"
+        android:layout_height="88dp" />
+
+    <TextView
+        android:layout_width="402dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text=" Aby złożyć zamówienie wpisz numer stolika oraz wybierz pozycję z listy "
+        android:textColor="@color/brown" />
+
+    <EditText
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Podaj numer stolika" />
+
+    <Space
+        android:layout_width="314dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:layout_width="266dp"
+        android:layout_height="44dp"
+        android:backgroundTint="@color/brown"
+        android:gravity="center"
+        android:text="Wybierz dane"
+        android:textColor="@color/white" />
+
+</LinearLayout>
